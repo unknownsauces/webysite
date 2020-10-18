@@ -1,0 +1,67 @@
+https://github.com/ultralytics/yolov5
+
+https://stackoverflow.com/questions/56239310/could-not-find-a-version-that-satisfies-the-requirement-torch-1-0-0
+
+https://pytorch.org/
+
+https://discuss.pytorch.org/t/pytorch-with-cuda-11-compatibility/89254
+
+Part 0.1:
+          This may be useless ;)
+
+                    get win 10 + nvidia computer
+
+                    get CUDA + CUDNN
+
+                    update ur shit. ( including nvidia drivers.)
+
+Step 1: -                                      "get the gun"
+  get miniconda
+
+Step 2:
+  go into conda and run " conda install numpy" then "conda create -n py3k anaconda python=3" then conda create -n myenv python
+
+Step 3:
+  update ur conda. "conda update conda"
+
+Step 4:
+  Run the Command "conda install conda-build"
+
+Step 5:
+  Run the Command "conda update conda"
+
+Step 6:
+  Run the Command "conda update conda-build"
+Step 7:
+  Run the Command "conda install pytorch torchvision cudatoolkit=10.2 -c pytorch"
+Step 8:
+  Run the Command "pip install torch===1.6.0 torchvision===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html"
+
+Step 9:
+  Run the Command "conda update conda" - just for shiggles
+
+                                                    Now you have Loaded the magazine.
+
+
+
+
+Pick your directory (*recommend fastest storage device)
+
+Step 11: press windowskey + s --> search for miniconda --> click to run.
+
+open conda (above), direct to where you want to install.
+
+
+Step 12:
+  Run the Command " git clone https://github.com/ultralytics/yolov5"
+
+Step 13:
+  Run the Command " pip install -qr yolov5/requirements.txt"
+
+Step 14:
+  Now you have loaded the barrel.
+
+                                            Its Time To Shoot.
+
+Step 16:
+  Run the Command " python detect.py --source file.mp4  " # video
