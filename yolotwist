@@ -19,7 +19,9 @@ Step 1: -                                      "get the gun"
   get miniconda
 
 Step 2:
-  go into conda and run " conda install numpy" then "conda create -n py3k anaconda python=3" then conda create -n myenv python
+  go into conda and run [] conda install numpy
+  then "conda create[] -n py3k anaconda python=3"
+  then conda create[] -n myenv python
 
 Step 3:
   update ur conda. "conda update conda"
